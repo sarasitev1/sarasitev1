@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include share.html %}
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+ <body id="palette1"> 
+        <div id="main-div-index"> 
+                <div class="index">
+                    <content>
+                        <div class="row">
+                            {% for i in (1..4) %}
+                                {% assign project = site.data.index | where: 'column', i | sort: 'order' %}
+                                {% for cover in project %}
+                             <div class="column"> 
+                                {% case page.lang %}
+                                {% when 'en' %}
+                                    <div class="static22"> 
+                                        <a href="{{ site.base.url }}/en/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a><br><br>
+                                        <div class="center">{{ cover.title-en }}</div></div>
+                                        <a href="{{ site.base.url }}/en/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
+                                        <div class="center">{{ cover.title-en }}</div>
+                                 <br><br><br>
+                                {% else %}
+                                  <div class="static22"> 
+                                        <a href="{{ site.base.url }}/{{ cover.name }}"><img src="/assets/covers/{{ cover.name }}.png"></a><br><br>
+                                        <div class="center">{{ cover.title }}</div></div>
+                                        <a href="{{ site.base.url }}/{{ cover.name }}"><img class="active22" src="/assets/covers/gif/{{ cover.name }}.gif" style="width:100.4%"></a><br><br>
+                                        <div class="center">{{ cover.title }}</div>
+                                 <br><br><br>
+                                 {% endcase %}
+                              </div>
+                                {% endfor %}
+                            {% endfor %}
+                        </div>
+                        <br>   
+                        <!-- Return to Top -->
+                        <button onclick="topFunction()" id="return-to-top" title="Go to top"><a class="fa fa-arrow-up" aria-hidden="true"></a></button>
+                      {{ content }}
+                        <hr>
+                      {% include swipebox.html %}
+                    </content>
+                </div> 
+         </div>   
+
+        {% include navbar.html %}
+ </body>
+</html>

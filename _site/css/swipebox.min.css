@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+<meta name="description" content="sara lana - ">
+<meta name="keywords" content="art, arte, portfolio, countersurveillance">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="height=device-height, initial-scale=1">
+
+<link rel="stylesheet" href="/css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700%7CSource+Code+Pro:400" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicons/favicon.ico">
+<script src="/js/script.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7PEGV7KJM5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7PEGV7KJM5');
+</script>
+
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sara_lana_">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content=" - ">
+<meta name="twitter:creator" content="@sara_lana_">
+
+<meta property="og:title" content="">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:4323/css/swipebox.min.css">
+<meta property="og:description" content=" - ">
+<meta property="og:site_name" content="sara lana">
+<meta property="article:publisher" content="">
+
+
+
+
+<meta name="twitter:image" content="http://localhost:4323/assets/covers/homecover.jpg">
+<meta property="og:image" content="http://localhost:4323/assets/covers/homecover.jpg">
+<meta name="description" content=" - ">
+    <div id="mySidebar" class="sidebar">
+    
+  
+    <a class="menu-item social" href="https://twitter.com/sara_lana_" target="_blank">
+      <i class="fa fa-twitter fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <a class="menu-item social" href="https://www.instagram.com/sara._.lana" target="_blank">
+      <i class="fa fa-instagram fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <a class="menu-item social" href="https://github.com/saralana" target="_blank">
+      <i class="fa fa-github fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <a class="menu-item social" href="https://soundcloud.com/sara_lana" target="_blank">
+      <i class="fa fa-soundcloud fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <a class="menu-item social" href="https://vimeo.com/saralana" target="_blank">
+      <i class="fa fa-vimeo fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <a class="menu-item social" href="https://freesound.org/people/saralana/" target="_blank">
+      <i class="fa fa-file-sound-o fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <a class="menu-item social" href="mailto:saralgc@gmail.com" target="_blank">
+      <i class="fa fa-paper-plane fa-1_5x" aria-hidden="true"></i>
+    </a>
+  
+
+
+</div>
+
+<div id="main" class="share">
+  <a>
+  <i class="fa fa-share-alt fa-1_5x" onclick="toggleNav()" aria-hidden="true"></i>
+  </a>
+</div>
+
+<script>
+
+function toggleNav() {
+    var element = document.getElementById("mySidebar");
+    if (element.style.width == "50px") {
+        element.style.width = "0px";
+    } else {
+        element.style.width = "50px";
+    }
+}
+
+</script>
+   
+
+
+  </head>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <body id="palette1">
+        <div id="main-div-index">
+              
+
+
+
+
+
+
+
+        
+            
+
+        
+        
+
+
+              <div id="post">
+                
+                  <div class="post-title"></div>
+                  <br>
+                  <b></b>
+                  <p></p>
+                  <b></b>
+                
+                <br><br><br>
+                <content>
+                  /*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */html.swipebox-html.swipebox-touch{overflow:hidden!important}#swipebox-overlay img{border:none!important}#swipebox-overlay{width:100%;height:100%;position:fixed;top:0;left:0;z-index:99999!important;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#swipebox-container{position:relative;width:100%;height:100%}#swipebox-slider{-webkit-transition:-webkit-transform .4s ease;transition:transform .4s ease;height:100%;left:0;top:0;width:100%;white-space:nowrap;position:absolute;display:none;cursor:pointer}#swipebox-slider .slide{height:100%;width:100%;line-height:1px;text-align:center;display:inline-block}#swipebox-slider .slide:before{content:"";display:inline-block;height:50%;width:1px;margin-right:-1px}#swipebox-slider .slide .swipebox-inline-container,#swipebox-slider .slide .swipebox-video-container,#swipebox-slider .slide img{display:inline-block;max-height:100%;max-width:100%;margin:0;padding:0;width:auto;height:auto;vertical-align:middle}#swipebox-slider .slide .swipebox-video-container{background:0 0;max-width:1140px;max-height:100%;width:100%;padding:5%;-webkit-box-sizing:border-box;box-sizing:border-box}#swipebox-slider .slide .swipebox-video-container .swipebox-video{width:100%;height:0;padding-bottom:56.25%;overflow:hidden;position:relative}#swipebox-slider .slide .swipebox-video-container .swipebox-video iframe{width:100%!important;height:100%!important;position:absolute;top:0;left:0}#swipebox-slider .slide-loading{background:url(/assets/swipebox/loader.gif) center center no-repeat}#swipebox-bottom-bar,#swipebox-top-bar{-webkit-transition:.5s;transition:.5s;position:absolute;left:0;z-index:999;height:50px;width:100%}#swipebox-bottom-bar{bottom:-50px}#swipebox-bottom-bar.visible-bars{-webkit-transform:translate3d(0,-50px,0);transform:translate3d(0,-50px,0)}#swipebox-top-bar{top:-50px}#swipebox-top-bar.visible-bars{-webkit-transform:translate3d(0,50px,0);transform:translate3d(0,50px,0)}#swipebox-title{display:block;width:100%;text-align:center}#swipebox-close,#swipebox-next,#swipebox-prev{background-image:url(/assets/swipebox/icons.png);background-repeat:no-repeat;border:none!important;text-decoration:none!important;cursor:pointer;width:50px;height:50px;top:0}#swipebox-arrows{display:block;margin:0 auto;width:100%;height:50px}#swipebox-prev{background-position:-32px 13px;float:left}#swipebox-next{background-position:-78px 13px;float:right}#swipebox-close{top:0;right:0;position:absolute;z-index:9999;background-position:15px 12px}.swipebox-no-close-button #swipebox-close{display:none}#swipebox-next.disabled,#swipebox-prev.disabled{opacity:.3}.swipebox-no-touch #swipebox-overlay.rightSpring #swipebox-slider{-webkit-animation:rightSpring .3s;animation:rightSpring .3s}.swipebox-no-touch #swipebox-overlay.leftSpring #swipebox-slider{-webkit-animation:leftSpring .3s;animation:leftSpring .3s}.swipebox-touch #swipebox-container:after,.swipebox-touch #swipebox-container:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transition:all .3s ease;transition:all .3s ease;content:' ';position:absolute;z-index:999;top:0;height:100%;width:20px;opacity:0}.swipebox-touch #swipebox-container:before{left:0;-webkit-box-shadow:inset 10px 0 10px -8px #656565;box-shadow:inset 10px 0 10px -8px #656565}.swipebox-touch #swipebox-container:after{right:0;-webkit-box-shadow:inset -10px 0 10px -8px #656565;box-shadow:inset -10px 0 10px -8px #656565}.swipebox-touch #swipebox-overlay.leftSpringTouch #swipebox-container:before,.swipebox-touch #swipebox-overlay.rightSpringTouch #swipebox-container:after{opacity:1}@-webkit-keyframes rightSpring{0%{left:0}50%{left:-30px}100%{left:0}}@keyframes rightSpring{0%{left:0}50%{left:-30px}100%{left:0}}@-webkit-keyframes leftSpring{0%{left:0}50%{left:30px}100%{left:0}}@keyframes leftSpring{0%{left:0}50%{left:30px}100%{left:0}}@media screen and (min-width:800px){#swipebox-close{right:10px}#swipebox-arrows{width:92%;max-width:800px}}#swipebox-overlay{background:#ec5d57}#swipebox-bottom-bar,#swipebox-top-bar{text-shadow:1px 1px 1px #000;background:#ec5d57;opacity:.95}#swipebox-top-bar{color:#fff!important;font-size:15px;line-height:43px;font-family:Helvetica,Arial,sans-serif}
+                  
+
+<script type="text/javascript">
+    (function($) {
+      $( '.swipebox' ).swipebox();
+    })(jQuery);
+</script>
+                  
+                </content>
+                  <br>
+                    
+                   
+                      
+         </div>
+        
+
+
+
+<div class="menu-language-section">
+  
+      <a href="/outros/"><div class="menu-language-option">PT</div></a><br>
+      <div class="menu-language-option"> – </div><br>
+      <div class="menu-language-option menu-language-option-selected">EN</div>
+  
+    
+    
+</div>
+
+
+
+  
+
+<br>
+
+ 
+ <div id="menu-mobile">
+  
+  <div class="nariz" id="show-menu" aria-hidden="true" style="cursor: pointer;"><img src="/assets/favicons/favicon.png" width="30px"></div>
+
+   <div id="menu-retratil" class="menu-hide">
+
+    <div id="hide-menu" class="menu-icon hide-menu">✖</div> 
+    <br><br>
+    
+
+           <a class="menu-item menu-title palette1" href="/en/">selected</a>
+           <a class="menu-item menu-title palette2" href="/others/">others</a>
+           <a class="menu-item menu-title palette4" href="/about/">about</a>
+  
+  
+
+
+   </div>  
+</div>
+   
+    
+ 
+<div id="navbar">
+    
+
+           <a class="menu-item menu-title palette1" href="/en/">selected</a>
+           <a class="menu-item menu-title palette2" href="/others/">others</a>
+           <a class="menu-item menu-title palette4" href="/about/">about</a>
+  
+  
+
+
+</div>    
+
+
+<script src="/js/script.js"></script>
+<script src="/js/menu.js"></script>
+  </body>
+</html>

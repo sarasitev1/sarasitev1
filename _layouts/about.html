@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ 
+ <html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+ <body id="palette4">  
+     <div id="main-div-about"> 
+         <img src="../assets/covers/avatar4.png" class="avatar">
+         <img src="../assets/covers/avatar3.png" class="avatar avatar-show">
+            <div class="about">
+                <div class="post-title"> Sara Lana
+                    <div class="barra">|</div>
+                    <div class="social-block">
+                        {% include social-icons.html %}
+                    </div>
+                </div>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                </content>
+                <div class=mobile-footer-space>
+                    <br>
+                </div>
+     </div>
+         </div>
+   
+        {% include navbar.html %}
+ </body>
+</html>

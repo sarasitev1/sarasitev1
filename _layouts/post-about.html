@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ 
+ <html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include share.html %}
+  </head>
+
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+ <body id="palette4">  
+     <div id="main-div-about"> 
+            <div class="about">
+                <div class="post-title">{{ page.title }}</div>
+                <content>
+                  {{ content }}
+                  {% include swipebox.html %}
+                </content>
+                  <br>
+                
+        {% if page.where %}
+                  <hr>
+                  <br>
+            {% case page.lang %}
+                {% when 'en' %}
+                  <b>Exhibitions:</b>  
+                {% else %}
+                  <b>Apresentações:</b>   
+            {% endcase %}    
+                 <br><br>
+                     {% for place in page.where %}
+                        <div class="list-footpage">
+                          {% if place.url == "sem" %}
+                             {{ place.name }}
+                          {% else %}
+                            <a href="{{ place.url }}" target="_blank">{{ place.name }}</a>
+                          {% endif %}
+                        </div>
+                     {% endfor %}  
+             <br>
+             <hr>
+             <br>   
+                <div class=mobile-footer-space>
+                    <br>
+                </div>     
+        {% endif %}
+         </div>
+    </div>
+        {% include navbar.html %}
+ </body>
+</html>
+

@@ -1,0 +1,46 @@
+# Site
+title: sara lana
+
+# URL
+url: http://v1.saralana.xyz
+baseurl: ''
+
+# default url for pages/posts
+permalink: :title/
+
+# site directory structure specifications | arquivos temporários de css no mesmo diretório
+include: ['_pages']
+sass:
+  sass_dir: css
+
+# Build settings
+markdown: kramdown
+port: 4323
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "post"
+
+# Data
+twitter_user: "sara_lana_"
+  
+social:
+  twitter: "https://twitter.com/sara_lana_"
+  instagram: "https://www.instagram.com/sara._.lana"
+  github: "https://github.com/saralana"
+  soundcloud: "https://soundcloud.com/sara_lana"
+  vimeo: "https://vimeo.com/saralana"
+  file-sound-o: "https://freesound.org/people/saralana/"
+  paper-plane: "mailto:saralgc@gmail.com"
+  
